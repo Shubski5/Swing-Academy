@@ -18,7 +18,7 @@ const App: React.FC = () => {
         <div className="main-container">
             {/* Logo at the very top */}
             <div style={{ width: '100%', display: 'flex', justifyContent: 'center', marginTop: '3.5rem', marginBottom: '2.5rem' }}>
-                <img src="/logo.png" alt="Swing Academy Logo" style={{ width: 160, objectFit: 'contain', background: '#222', borderRadius: 24, padding: 12, boxShadow: '0 4px 24px rgba(229,57,53,0.10)' }} onError={e => (e.currentTarget.style.display = 'none')} />
+                <img src="/Swing-Academy/logo.png" alt="Swing Academy Logo" style={{ width: 160, objectFit: 'contain', background: '#222', borderRadius: 24, padding: 12, boxShadow: '0 4px 24px rgba(229,57,53,0.10)' }} onError={e => (e.currentTarget.style.display = 'none')} />
             </div>
             <header className="card-section" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 0, marginBottom: '2.5rem', paddingTop: '2.5rem', paddingBottom: '2.5rem' }}>
                 <h1>Master Trading Skills for a Lifetime of Financial Growth</h1>
