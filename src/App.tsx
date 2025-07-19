@@ -11,7 +11,7 @@ const scrollToPayment = () => {
 
 const App: React.FC = () => {
     // Smooth scroll for anchor links
-    // Updated deployment - 2024
+    // Updated deployment - 2024 - Final version
     React.useEffect(() => {
         document.documentElement.style.scrollBehavior = 'smooth';
     }, []);
