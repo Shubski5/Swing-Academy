@@ -57,15 +57,15 @@ const App: React.FC = () => {
             <section id="payment-section" className="card-section" style={{ maxWidth: 540, textAlign: 'center', marginTop: 0, marginBottom: '2.5rem', paddingTop: '2.5rem', paddingBottom: '2.5rem' }}>
                 <h2>Join the Mentorship</h2>
                 <div className="price-section">
-                    <span className="old-price">$2500</span>
-                    <span className="new-price">$1000</span>
+                    <span className="old-price">$1000</span>
+                    <span className="new-price">$750</span>
                     <span className="price-label">/lifetime</span>
                 </div>
                 <p style={{ color: '#ccc', fontSize: '1.1rem', marginBottom: 24 }}>
                     Unlock all live sessions, the full video library, private community access, and direct feedback from experienced traders.
                 </p>
                 <a
-                    href="https://whop.com/checkout/plan_lN3SYEGRthyHI?d2c=true"
+                    href="https://whop.com/checkout/plan_JxIi1oDiB8GiS?d2c=true"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="header-btn"
